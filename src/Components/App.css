@@ -2,3 +2,33 @@
     margin: 0;
     padding: 0;
 }
+tr,td,table,th{
+    border: 2px solid;
+    margin: 10px;   
+}
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 500px;
+}
+.basket{
+    height:500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.baskett{
+    position: relative;
+    margin: 5px;
+}
+.num{
+    position: absolute;
+    top: 4px;
+    /* left:40px; */
+    right:155px;
+    font-size: 25px;
+    background-color: azure;
+    border: 2px solid;
+    border-radius: 4px;
+    font-weight: bold;
+}
